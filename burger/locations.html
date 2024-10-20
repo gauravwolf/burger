@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Location - Burger King</title>
+    <link rel="stylesheet" href="style6.css">
+    
+</head>
+<body>
+    <section class="find-location">
+        <h2>Find a Location</h2>
+        <p>Locate your nearest Burger King using the map below or search by your city or zip code.</p>
+        <div class="search-bar">
+            <input type="text" id="location-search" placeholder="Enter city or zip code">
+            <button onclick="searchLocation()">Search</button>
+        </div>
+        <div id="map"></div>
+    </section>
+    <script>
+        function initMap() {
+            var options = {
+                zoom: 8,
+                center: {lat: 40.7128, lng: -74.0060} // Example coordinates (New York City)
+            };
+            var map = new google.maps.Map(document.getElementById('map'), options);
+        }
+        
+        function searchLocation() {
+            var location = document.getElementById('location-search').value;
+            // Logic to search and update the map based on the entered location
+        }
+    </script>
+</body>
+</html>

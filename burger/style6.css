@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.find-location {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.find-location h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffab00;
+}
+
+.find-location p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #1e1e1e;
+    background-color: #ffab00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #ffa500;
+}
+
+
